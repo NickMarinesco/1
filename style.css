@@ -1,0 +1,83 @@
+
+body {
+  background-image: url("./Img/ROG_wallpaper_Psychedelic_1920x1080.jpg");
+    color: rgb(218, 26, 26);
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    color: rgb(196, 197, 193);
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .item {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  p {
+    color: rgb(233, 61, 61);
+    
+  }
+
+  button {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#app{
+  display: flex;
+  justify-content: flex-end;
+}
+div {
+  
+  padding: 10px;
+}
+footer {
+  background-color: #333; /* Color de fondo */
+  color: white; /* Color de texto */
+  padding: 20px; /* Espacio interno */
+  text-align: center; /* Alinear el contenido al centro */
+  clear: both; /* Limpiar el float de los elementos anteriores */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#carrito {
+  background-color: #5e78eb8c;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+#carrito-lista {
+  padding: 0;
+  margin: 0;
+}
+
+#carrito-lista li {
+  list-style: none;
+  margin-bottom: 5px;
+}
